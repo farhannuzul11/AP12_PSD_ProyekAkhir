@@ -1,0 +1,46 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+use IEEE.math_real.ALL;
+
+use work.State_Condition.ALL;
+use work.Memory.ALL;
+
+entity Receptionist is
+    port (
+        guest : IN STD_LOGIC;
+        mode : IN STD_LOGIC;
+        clk : IN STD_LOGIC;        
+    );
+end entity Receptionist;
+
+architecture rtl of Receptionist is
+    SIGNAL present_state, next_state : state_type;
+begin
+
+    --start process
+    start : PROCESS (clk, next_state)
+    BEGIN
+        IF rising_edge(clk) THEN
+            present_state <= next_state; --masih rada ragu
+        END IF;
+    END PROCESS;
+
+    --all process
+    all_process : PROCESS (present_state)
+    BEGIN
+        CASE mode is --.1
+            WHEN '1' =>
+                --kode saat mode memesan
+                    
+                CASE present_state IS --.2
+                    WHEN IDLE =>
+
+                END CASE; --.2   
+                
+
+            WHEN '0' =>
+                --kode saat ingin masuk kamar
+
+        END CASE;--.1        
+end architecture rtl;

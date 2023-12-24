@@ -1,0 +1,124 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Praktikum/W9/CS Soal
+Pmemory
+Z0 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+w1702701879
+Z3 dC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir
+8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Memory.vhd
+FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Memory.vhd
+l0
+L5 1
+VLoHCgiWD2UHW`m0M2dmPc0
+!s100 [5hKW3UY^K9^A<L4@NkBG1
+Z4 OV;C;2020.1;71
+32
+!s110 1702701891
+!i10b 1
+!s108 1702701891.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Memory.vhd|
+!s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Memory.vhd|
+!i113 1
+Z5 o-work work -2002 -explicit
+Z6 tExplicit 1 CvgOpt 0
+Ereceptionist
+w1703327495
+DPx4 work 6 memory 0 22 LoHCgiWD2UHW`m0M2dmPc0
+DPx4 work 15 state_condition 0 22 hHMlBAk4ogW`F:]=EEC8N0
+DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R0
+R1
+R2
+!i122 6
+R3
+8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd
+FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd
+l0
+L9 1
+VmAQ4z=AB;dUHWdB[18Va@1
+!s100 V;Z?>12jSYa5z5j7NGD@X3
+R4
+32
+!s110 1703327587
+!i10b 1
+!s108 1703327587.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd|
+!s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd|
+!i113 1
+R5
+R6
+Esevensegment
+Z7 w1703327563
+R1
+R2
+!i122 7
+R3
+Z8 8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd
+Z9 FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd
+l0
+L4 1
+VBQzL?4n8a4iR58<7m2ELC2
+!s100 ZAcX0LHoH<goQIl7Da2]V1
+R4
+32
+Z10 !s110 1703327607
+!i10b 1
+Z11 !s108 1703327607.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd|
+!s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd|
+!i113 1
+R5
+R6
+Artl
+R1
+R2
+DEx4 work 12 sevensegment 0 22 BQzL?4n8a4iR58<7m2ELC2
+!i122 7
+l12
+L11 25
+Vd3l2:]B36MBH6H?[j4gTU1
+!s100 60>QNVRP>aK@BRS979AQf2
+R4
+32
+R10
+!i10b 1
+R11
+R12
+Z13 !s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd|
+!i113 1
+R5
+R6
+Pstate_condition
+R0
+R1
+R2
+!i122 0
+w1702700770
+R3
+8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/State_Condition.vhd
+FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/State_Condition.vhd
+l0
+L5 1
+VhHMlBAk4ogW`F:]=EEC8N0
+!s100 B_R?1^JB_6;IX?eAZL2Rm1
+R4
+32
+!s110 1702700782
+!i10b 1
+!s108 1702700782.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/State_Condition.vhd|
+!s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/State_Condition.vhd|
+!i113 1
+R5
+R6
