@@ -1,0 +1,123 @@
+C:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity gfmult_by2
+-- Compiling architecture behavioral of gfmult_by2
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sub_byte
+-- Compiling architecture behavioral of sub_byte
+-- Loading entity sbox
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/aes_enc.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/aes_enc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity aes_encrypt
+-- Compiling architecture behavior of aes_encrypt
+-- Loading entity reg
+-- Loading package NUMERIC_STD
+-- Loading entity add_round_key
+-- Loading entity sub_byte
+-- Loading entity shift_rows
+-- Loading entity mix_columns
+-- Loading entity control_unit
+-- Loading entity key_sched
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mix_columns
+-- Compiling architecture rtl of mix_columns
+-- Loading entity column_calculator
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/key_sched.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/key_sched.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity key_sched
+-- Compiling architecture behavioral of key_sched
+-- Loading entity reg
+-- Loading entity key_sch_round_function
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/control_unit.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/control_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control_unit
+-- Compiling architecture behavior of control_unit
+-- Loading entity reg
+-- Loading entity gfmult_by2
+** Warning: C:/Users/User/OneDrive/Desktop/AES/control_unit.vhd(41): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 7).
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity key_sch_round_function
+-- Compiling architecture behavioral of key_sch_round_function
+-- Loading entity sbox
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/sbox.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/sbox.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sbox
+-- Compiling architecture behavioral of sbox
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_aes
+-- Compiling architecture behavior of tb_aes
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture behavioral of reg
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/column_calculator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/column_calculator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity column_calculator
+-- Compiling architecture rtl of column_calculator
+-- Loading entity gfmult_by2
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity shift_rows
+-- Compiling architecture rtl of shift_rows
+
+} {} {}} C:/Users/User/OneDrive/Desktop/AES/add_round_key.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/OneDrive/Desktop/AES/add_round_key.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity add_round_key
+-- Compiling architecture logic_design of add_round_key
+
+} {} {}}
