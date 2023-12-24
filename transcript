@@ -1,3 +1,8 @@
-# Compile of Receptionist.vhd failed with 2 errors.
-# Compile of Receptionist.vhd failed with 2 errors.
-# Compile of SevenSegment.vhd was successful.
+# Compile of Receptionist.vhd failed with 1 errors.
+# Compile of Receptionist.vhd failed with 1 errors.
+# Compile of Receptionist.vhd failed with 1 errors.
+# Compile of Receptionist.vhd failed with 122 errors.
+# Compile of Memory.vhd failed with 1 errors.
+# Compile of State_Condition.vhd was successful.
+# Compile of Receptionist.vhd failed with 58 errors.
+# Compile of Memory.vhd failed with 1 errors.

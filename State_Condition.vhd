@@ -4,6 +4,6 @@ use IEEE.numeric_std.all;
 
 package State_Condition is
     
-    type state_type is (IDLE, SELECTMODE, GUESTIN, INPUT_USER, OVERLOAD); --masih ada pengurangan
+    type state_type is (IDLE, SELECTMODE, GUESTIN, GUESTOUT, INPUT_USER, OVERLOAD, ACCESS_ROOM); --masih ada pengurangan
 
 end package;
