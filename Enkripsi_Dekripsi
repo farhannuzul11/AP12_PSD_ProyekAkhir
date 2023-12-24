@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity Enkripsi_AP12 is
+entity Enkripsi_Dekripsi is
     port (
         inp : in integer;
         START : in std_logic;
@@ -11,21 +11,21 @@ entity Enkripsi_AP12 is
         CLK : in std_logic;
         outp : out integer
     );
-end entity Enkripsi_AP12;
+end entity Enkripsi_Dekripsi;
 
-architecture rtl of Enkripsi_AP12 is
-    signal INPUT : std_logic_vector(15 downto 0);
-    signal OUTPUT : std_logic_vector(15 downto 0) := (others => '0');
+architecture rtl of Enkripsi_Dekripsi is
+    signal INPUT : std_logic_vector(19 downto 0);
+    signal OUTPUT : std_logic_vector(19 downto 0) := (others => '0');
     type state is (init, add, s_xor, swap, sub, done);
-    signal temp : std_logic_vector(15 downto 0) := (others => '0');
+    signal temp : std_logic_vector(19 downto 0) := (others => '0');
     
     signal present_state, next_state : state := init;
 begin
 
     process(present_state, input, mode, start, inp) is
-        variable result : std_logic_vector(15 downto 0) := (others => '0');
+        variable result : std_logic_vector(19 downto 0) := (others => '0');
     begin
-        INPUT <= std_logic_vector(to_unsigned(inp, 16));
+        INPUT <= std_logic_vector(to_unsigned(inp, 20));
         if present_state = init then
             if start = '0' then
                 next_state <= init;
@@ -34,7 +34,7 @@ begin
                 result := input;
             end if;
         elsif present_state = add then
-            result := std_logic_vector(unsigned(temp(15 downto 12)) + unsigned(key)) & std_logic_vector(unsigned(temp(11 downto 8)) + unsigned(key)) & std_logic_vector(unsigned(temp(7 downto 4)) + unsigned(key)) & std_logic_vector(unsigned(temp(3 downto 0)) + unsigned(key));
+            result := std_logic_vector(unsigned(temp(19 downto 16)) + unsigned(key)) & std_logic_vector(unsigned(temp(15 downto 12)) + unsigned(key)) & std_logic_vector(unsigned(temp(11 downto 8)) + unsigned(key)) & std_logic_vector(unsigned(temp(7 downto 4)) + unsigned(key)) & std_logic_vector(unsigned(temp(3 downto 0)) + unsigned(key));
             
             if mode = '0' then
                 next_state <= s_xor;
@@ -42,7 +42,7 @@ begin
                 next_state <= swap;
             end if;
         elsif present_state = s_xor then
-            result := temp xor (key & key & key & key);
+            result := temp xor (key & key & key & key & key);
             
             if mode = '0' then
                 next_state <= swap;
@@ -50,7 +50,7 @@ begin
                 next_state <= sub;
             end if;
         elsif present_state = swap then
-            result := temp(7 downto 0) & temp(15 downto 8);
+            result := temp(9 downto 0) & temp(19 downto 10);
             
             if mode = '0' then
                 next_state <= sub;
@@ -58,7 +58,7 @@ begin
                 next_state <= s_xor;
             end if;
         elsif present_state = sub then
-            result := std_logic_vector(unsigned(temp(15 downto 12)) - unsigned(key)) & std_logic_vector(unsigned(temp(11 downto 8)) - unsigned(key)) & std_logic_vector(unsigned(temp(7 downto 4)) - unsigned(key)) & std_logic_vector(unsigned(temp(3 downto 0)) - unsigned(key));
+            result := std_logic_vector(unsigned(temp(19 downto 16)) - unsigned(key)) & std_logic_vector(unsigned(temp(15 downto 12)) - unsigned(key)) & std_logic_vector(unsigned(temp(11 downto 8)) - unsigned(key)) & std_logic_vector(unsigned(temp(7 downto 4)) - unsigned(key)) & std_logic_vector(unsigned(temp(3 downto 0)) - unsigned(key));
             next_state <= done;
             
         else
