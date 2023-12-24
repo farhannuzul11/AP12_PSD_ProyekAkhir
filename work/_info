@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11e MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -230,8 +231,8 @@ R3
 R28
 l22
 L18
-Z46 VnnIj^G8V;3UQMo8RSfK^60
-Z47 !s100 VI40_ReQ4S?Pm651AlCh?2
+VnnIj^G8V;3UQMo8RSfK^60
+!s100 VI40_ReQ4S?Pm651AlCh?2
 R7
 32
 R42
@@ -243,23 +244,23 @@ R45
 R12
 R13
 Econtroller
-Z48 w1703405879
+Z46 w1703405879
 R2
 R3
 R4
-Z49 8C:/Users/User/OneDrive/Desktop/AES/controller.vhd
-Z50 FC:/Users/User/OneDrive/Desktop/AES/controller.vhd
+Z47 8C:/Users/User/OneDrive/Desktop/AES/controller.vhd
+Z48 FC:/Users/User/OneDrive/Desktop/AES/controller.vhd
 l0
 L4
 VD;RHU=S=IUVIQn6ziWhW20
 !s100 URZUBjZIS=ZjhzVc;ZL@K1
 R7
 32
-Z51 !s110 1703409915
+Z49 !s110 1703409915
 !i10b 1
-Z52 !s108 1703409915.000000
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/controller.vhd|
-Z54 !s107 C:/Users/User/OneDrive/Desktop/AES/controller.vhd|
+Z50 !s108 1703409915.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/controller.vhd|
+Z52 !s107 C:/Users/User/OneDrive/Desktop/AES/controller.vhd|
 !i113 1
 R12
 R13
@@ -275,21 +276,64 @@ V1];n3S[>N19AH^1Wz^n=52
 !s100 ]Lgm_YTB^OKWDickCP]Zk2
 R7
 32
-R51
+R49
 !i10b 1
+R50
+R51
 R52
-R53
+!i113 1
+R12
+R13
+Eenkripsi_ap12
+Z53 w1703428863
+Z54 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+Z55 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z56 dC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir
+Z57 8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Enkripsi_Dekripsi.vhd
+Z58 FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Enkripsi_Dekripsi.vhd
+l0
+L5 1
+VV^dE5T=^1Pkd80[;S59gb0
+!s100 :dMdRnRzVzf2_<3GSo^`=3
+Z59 OV;C;2020.1;71
+32
+Z60 !s110 1703429107
+!i10b 1
+Z61 !s108 1703429107.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Enkripsi_Dekripsi.vhd|
+!s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Enkripsi_Dekripsi.vhd|
+!i113 1
+R12
+R13
+Artl
 R54
+R2
+R55
+DEx4 work 13 enkripsi_ap12 0 22 V^dE5T=^1Pkd80[;S59gb0
+!i122 0
+l23
+L16 65
+Vl9l]clRWj1XLkeREaeUC90
+!s100 M_ST<fNmo?ffgnOol5>TI0
+R59
+32
+R60
+!i10b 1
+R61
+R62
+Z63 !s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Enkripsi_Dekripsi.vhd|
 !i113 1
 R12
 R13
 Egfmult_by2
-Z55 w1703425192
+Z64 w1703425192
 R2
 R3
 R4
-Z56 8C:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd
-Z57 FC:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd
+Z65 8C:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd
+Z66 FC:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd
 l0
 L6
 V]iS=lGJmQ=^S8A@g8gj0V1
@@ -299,8 +343,8 @@ R7
 R8
 !i10b 1
 R9
-Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd|
-Z59 !s107 C:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd|
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd|
+Z68 !s107 C:/Users/User/OneDrive/Desktop/AES/gfmult2.vhd|
 !i113 1
 R12
 R13
@@ -317,18 +361,18 @@ R7
 R8
 !i10b 1
 R9
-R58
-R59
+R67
+R68
 !i113 1
 R12
 R13
 Ekey_sch_round_function
-Z60 w1703426567
+Z69 w1703426567
 R2
 R3
 R4
-Z61 8C:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd
-Z62 FC:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd
+Z70 8C:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd
+Z71 FC:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd
 l0
 L4
 V3TJj9a8<_A3_WoA7lfTmD0
@@ -338,16 +382,16 @@ R7
 R8
 !i10b 1
 R9
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd|
-Z64 !s107 C:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd|
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd|
+Z73 !s107 C:/Users/User/OneDrive/Desktop/AES/key_sch_round_function.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-Z65 DEx4 work 4 sbox 0 22 MeJQWm;5zZ5A35lSS<PcA2
+Z74 DEx4 work 4 sbox 0 22 MeJQWm;5zZ5A35lSS<PcA2
 R2
 R3
-Z66 DEx4 work 22 key_sch_round_function 0 22 3TJj9a8<_A3_WoA7lfTmD0
+Z75 DEx4 work 22 key_sch_round_function 0 22 3TJj9a8<_A3_WoA7lfTmD0
 l16
 L12
 VYG2AJkO5AGB<D^HIHziok2
@@ -357,34 +401,34 @@ R7
 R8
 !i10b 1
 R9
-R63
-R64
+R72
+R73
 !i113 1
 R12
 R13
 Ekey_sched
-Z67 w1703426433
+Z76 w1703426433
 R2
 R3
 R4
-Z68 8C:/Users/User/OneDrive/Desktop/AES/key_sched.vhd
-Z69 FC:/Users/User/OneDrive/Desktop/AES/key_sched.vhd
+Z77 8C:/Users/User/OneDrive/Desktop/AES/key_sched.vhd
+Z78 FC:/Users/User/OneDrive/Desktop/AES/key_sched.vhd
 l0
 L6
 Ve236f`];Y^o:7nF4F[FXB1
 !s100 mXRKc0E_O?AJz_S=z5iRR1
 R7
 32
-Z70 !s110 1703426717
+Z79 !s110 1703426717
 !i10b 1
-Z71 !s108 1703426717.000000
-Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/key_sched.vhd|
-Z73 !s107 C:/Users/User/OneDrive/Desktop/AES/key_sched.vhd|
+Z80 !s108 1703426717.000000
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/key_sched.vhd|
+Z82 !s107 C:/Users/User/OneDrive/Desktop/AES/key_sched.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R66
+R75
 R25
 R2
 R3
@@ -395,32 +439,32 @@ VV0KII2FKBn2P21glG^8N;0
 !s100 02TiPR0k^g5RzM?JeYQ1B2
 R7
 32
-R70
+R79
 !i10b 1
-R71
-R72
-R73
+R80
+R81
+R82
 !i113 1
 R12
 R13
 Ekey_schedule
-Z74 w1703410714
+Z83 w1703410714
 R2
 R3
 R4
-Z75 8C:/Users/User/OneDrive/Desktop/AES/key_schedule.vhd
-Z76 FC:/Users/User/OneDrive/Desktop/AES/key_schedule.vhd
+Z84 8C:/Users/User/OneDrive/Desktop/AES/key_schedule.vhd
+Z85 FC:/Users/User/OneDrive/Desktop/AES/key_schedule.vhd
 l0
 L4
 VZKHE7fD>T<[9P0748JU?`0
 !s100 GD^Ok4h8@WIlPDYQ?B2>Z1
 R7
 32
-Z77 !s110 1703410852
+Z86 !s110 1703410852
 !i10b 1
-Z78 !s108 1703410852.000000
-Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/key_schedule.vhd|
-Z80 !s107 C:/Users/User/OneDrive/Desktop/AES/key_schedule.vhd|
+Z87 !s108 1703410852.000000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/key_schedule.vhd|
+Z89 !s107 C:/Users/User/OneDrive/Desktop/AES/key_schedule.vhd|
 !i113 1
 R12
 R13
@@ -436,21 +480,21 @@ V<W7@A>6hQVM77L^Y`c:UN1
 !s100 1>XmoLUz27Pfe@W1LYdBJ1
 R7
 32
-R77
+R86
 !i10b 1
-R78
-R79
-R80
+R87
+R88
+R89
 !i113 1
 R12
 R13
 Emix_columns
-Z81 w1703424956
+Z90 w1703424956
 R2
 R3
 R4
-Z82 8C:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd
-Z83 FC:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd
+Z91 8C:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd
+Z92 FC:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd
 l0
 L6
 VBGn47n`lC[bE8]951L5WC3
@@ -460,8 +504,8 @@ R7
 R8
 !i10b 1
 R9
-Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd|
-Z85 !s107 C:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd|
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd|
+Z94 !s107 C:/Users/User/OneDrive/Desktop/AES/mix_columns.vhd|
 !i113 1
 R12
 R13
@@ -479,29 +523,29 @@ R7
 R8
 !i10b 1
 R9
-R84
-R85
+R93
+R94
 !i113 1
 R12
 R13
 Ereg
-Z86 w1703410825
+Z95 w1703410825
 R2
 R3
 R4
-Z87 8C:/Users/User/OneDrive/Desktop/AES/reg.vhd
-Z88 FC:/Users/User/OneDrive/Desktop/AES/reg.vhd
+Z96 8C:/Users/User/OneDrive/Desktop/AES/reg.vhd
+Z97 FC:/Users/User/OneDrive/Desktop/AES/reg.vhd
 l0
 L4
 VN`Fmg<C3?O@aC>P0Z:RCl1
 !s100 nb[6kd>:zQo?T@NaIlD;^1
 R7
 32
-R70
+R79
 !i10b 1
 R9
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/reg.vhd|
-Z90 !s107 C:/Users/User/OneDrive/Desktop/AES/reg.vhd|
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/reg.vhd|
+Z99 !s107 C:/Users/User/OneDrive/Desktop/AES/reg.vhd|
 !i113 1
 R12
 R13
@@ -515,71 +559,71 @@ V;_gCKXTHQiaET6lBRhn022
 !s100 GU@i>?<l^gdmF^ZB9Jjb33
 R7
 32
-R70
+R79
 !i10b 1
 R9
-R89
-R90
+R98
+R99
 !i113 1
 R12
 R13
 Esbox
-Z91 w1703421815
+Z100 w1703421815
 R2
 R3
 R4
-Z92 8C:/Users/User/OneDrive/Desktop/AES/sbox.vhd
-Z93 FC:/Users/User/OneDrive/Desktop/AES/sbox.vhd
+Z101 8C:/Users/User/OneDrive/Desktop/AES/sbox.vhd
+Z102 FC:/Users/User/OneDrive/Desktop/AES/sbox.vhd
 l0
 L4
 VMeJQWm;5zZ5A35lSS<PcA2
 !s100 zjCiPYLWhoeCS[G^U4<4I2
 R7
 32
-R70
+R79
 !i10b 1
-R71
-Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/sbox.vhd|
-Z95 !s107 C:/Users/User/OneDrive/Desktop/AES/sbox.vhd|
+R80
+Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/sbox.vhd|
+Z104 !s107 C:/Users/User/OneDrive/Desktop/AES/sbox.vhd|
 !i113 1
 R12
 R13
 Abehavioral
 R2
 R3
-R65
+R74
 l13
 L11
 VDERUMB^UYHa:bo?SDLHe:3
 !s100 4@iiSVAZ43mZdIFjOfXIF1
 R7
 32
-R70
+R79
 !i10b 1
-R71
-R94
-R95
+R80
+R103
+R104
 !i113 1
 R12
 R13
 Eshift_rows
-Z96 w1703424847
+Z105 w1703424847
 R2
 R3
 R4
-Z97 8C:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd
-Z98 FC:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd
+Z106 8C:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd
+Z107 FC:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd
 l0
 L6
 VEHZoP5W>0Y2zRA]bH:22;0
 !s100 U[Z?PGkFdMOMMjM;LUCW80
 R7
 32
-R70
+R79
 !i10b 1
-R71
-Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd|
-Z100 !s107 C:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd|
+R80
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd|
+Z109 !s107 C:/Users/User/OneDrive/Desktop/AES/shift_rows.vhd|
 !i113 1
 R12
 R13
@@ -593,37 +637,37 @@ VHP:o6=jWLoDo@6;QRH9dK2
 !s100 P0@B@c:Y[c^zKP^A_cja32
 R7
 32
-R70
+R79
 !i10b 1
-R71
-R99
-R100
+R80
+R108
+R109
 !i113 1
 R12
 R13
 Esub_byte
-Z101 w1703424507
+Z110 w1703424507
 R2
 R3
 R4
-Z102 8C:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd
-Z103 FC:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd
+Z111 8C:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd
+Z112 FC:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd
 l0
 L4
 V9XdaBSiHKoCK5M?=68=JE1
 !s100 1?21O2>BZDL<=oh@Vb[881
 R7
 32
-R70
+R79
 !i10b 1
-R71
-Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd|
-Z105 !s107 C:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd|
+R80
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd|
+Z114 !s107 C:/Users/User/OneDrive/Desktop/AES/sub_byte.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-R65
+R74
 R2
 R3
 R31
@@ -633,32 +677,32 @@ Vo6KNA0c3:;7W[SA7:OH2M2
 !s100 6En_YN96ShL7<ShOCEdXk0
 R7
 32
-R70
+R79
 !i10b 1
-R71
-R104
-R105
+R80
+R113
+R114
 !i113 1
 R12
 R13
 Etb_aes
-Z106 w1703426610
+Z115 w1703426610
 R2
 R3
 R4
-Z107 8C:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd
-Z108 FC:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd
+Z116 8C:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd
+Z117 FC:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd
 l0
 L6
 VnBi3Nm``h<FWa3]e;:zCD3
 !s100 L0BeRHc[dPA69Im?E2OVB3
 R7
 32
-Z109 !s110 1703426718
+Z118 !s110 1703426718
 !i10b 1
-R71
-Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd|
-Z111 !s107 C:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd|
+R80
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd|
+Z120 !s107 C:/Users/User/OneDrive/Desktop/AES/tb_aes.vhd|
 !i113 1
 R12
 R13
@@ -672,32 +716,32 @@ VHVm=c=YCSK8<gQfU?WXDD1
 !s100 5aXaU5n`omKYX1DOU6]Y:3
 R7
 32
-R109
+R118
 !i10b 1
-R71
-R110
-R111
+R80
+R119
+R120
 !i113 1
 R12
 R13
 Etest_enc
-Z112 w1703425843
+Z121 w1703425843
 R2
 R3
 R4
-Z113 8C:/Users/User/OneDrive/Desktop/AES/tb_aec.vhd
-Z114 FC:/Users/User/OneDrive/Desktop/AES/tb_aec.vhd
+Z122 8C:/Users/User/OneDrive/Desktop/AES/tb_aec.vhd
+Z123 FC:/Users/User/OneDrive/Desktop/AES/tb_aec.vhd
 l0
 L6
 V@B?NY:?ee[]ESEnRaAoCk3
 !s100 ZVIiJHh5jQLbzC<JiL9WW1
 R7
 32
-Z115 !s110 1703426576
+Z124 !s110 1703426576
 !i10b 1
-Z116 !s108 1703426576.000000
-Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/tb_aec.vhd|
-Z118 !s107 C:/Users/User/OneDrive/Desktop/AES/tb_aec.vhd|
+Z125 !s108 1703426576.000000
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/User/OneDrive/Desktop/AES/tb_aec.vhd|
+Z127 !s107 C:/Users/User/OneDrive/Desktop/AES/tb_aec.vhd|
 !i113 1
 R12
 R13
@@ -711,11 +755,11 @@ VYG<oHSki_X^^jh^84R[kz3
 !s100 z6BQ^B1@;9Z@O>cC`@IF22
 R7
 32
-R115
+R124
 !i10b 1
-R116
-R117
-R118
+R125
+R126
+R127
 !i113 1
 R12
 R13

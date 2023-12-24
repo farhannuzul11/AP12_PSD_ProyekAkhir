@@ -7,12 +7,13 @@ use work.Memory.ALL;
 
 entity Receptionist is
     port (
+        -- guest : IN STD_LOGIC;
         clk : IN STD_LOGIC;
         mode : IN STD_LOGIC;
         room_condition : STD_LOGIC;
         username : IN STRING(1 TO 11);
         day : IN INTEGER;
-        password : IN INTEGER;
+        password : IN INTEGER;s
         password_in : IN INTEGER;
         overload_out : OUT STD_LOGIC; -- untuk menampilkan overload
         header_out : OUT STD_LOGIC_VECTOR(3 DOWNTO 0) -- untuk menentukan ruangan        
@@ -41,24 +42,26 @@ architecture rtl of Receptionist is
     -- Deklarasi sinyal
     SIGNAL present_state, next_state : state_type;
     SIGNAL password_sig : STD_LOGIC_VECTOR(7 DOWNTO 0);
-    SIGNAL header : STD_LOGIC_VECTOR(3 DOWNTO 0);
-    SIGNAL overload_var : STD_LOGIC := '0'; -- Inisialisasi overload_var
+    SIGNAL header : STD_LOGIC_VECTOR(3 DOWNTO 0);  -- Added signal declaration for 'header'
 begin
     -- Start process
     start : PROCESS (clk, next_state)
     BEGIN
         IF rising_edge(clk) THEN
-            present_state <= next_state;
+            present_state <= next_state; -- masih rada ragu
         END IF;
     END PROCESS;
 
     -- All process
     all_process : PROCESS (present_state)
+        VARIABLE overload_var : STD_LOGIC;
     BEGIN
-        CASE mode is
+        CASE mode is -- .1
             WHEN '1' =>
-                CASE present_state IS
+                -- Kode saat mode memesan
+                CASE present_state IS -- .2
                     WHEN IDLE =>
+                        -- Kode
                         IF room_condition = '0' THEN 
                             next_state <= GUESTIN;
                         ELSE
@@ -105,13 +108,13 @@ begin
                         room(to_integer(unsigned(header(3 DOWNTO 2))), to_integer(unsigned(header(1 DOWNTO 0)))).status := '1';
                         room(to_integer(unsigned(header(3 DOWNTO 2))), to_integer(unsigned(header(1 DOWNTO 0)))).username := username;
                         room(to_integer(unsigned(header(3 DOWNTO 2))), to_integer(unsigned(header(1 DOWNTO 0)))).day := day;
-                        password_sig <= hash (password);
+                        password_sig <= hash (password); -- belum ada implementasinya
                         room(to_integer(unsigned(header(3 DOWNTO 2))), to_integer(unsigned(header(1 DOWNTO 0)))).password := password_sig;
 
                         next_state <= IDLE;
 
                     WHEN OVERLOAD =>
-                        report "All rooms are occupied";
+                        report "There is no room available";
 
                         next_state <= IDLE;
 
@@ -122,9 +125,10 @@ begin
                         room (to_integer(unsigned(header(3 DOWNTO 2))), to_integer(unsigned(header(1 DOWNTO 0)))).password := "00000000";
 
                         next_state <= IDLE;
-                END CASE;
-
+                END CASE; -- .2
+                
             WHEN '0' =>
+                -- Kode saat ingin masuk kamar
                 CASE present_state IS
                     WHEN IDLE =>
                         next_state <= ACCESS_ROOM;
@@ -171,7 +175,7 @@ begin
                         END IF;
                         
                         next_state <= IDLE;
-                END CASE;
+                END CASE; -- .1
         END CASE;
     END PROCESS;
 end architecture rtl;
