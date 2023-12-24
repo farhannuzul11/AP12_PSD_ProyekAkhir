@@ -13,20 +13,20 @@ Pmemory
 Z0 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 2
-w1702701879
+!i122 16
+w1703427633
 Z3 dC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir
 8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Memory.vhd
 FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Memory.vhd
 l0
 L5 1
-VLoHCgiWD2UHW`m0M2dmPc0
-!s100 [5hKW3UY^K9^A<L4@NkBG1
+VzUI2HJGcRCHNeL=0oIUP01
+!s100 `E[0Om5PUOldjIWbMUN1N2
 Z4 OV;C;2020.1;71
 32
-!s110 1702701891
+!s110 1703427666
 !i10b 1
-!s108 1702701891.000000
+!s108 1703427666.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Memory.vhd|
 !s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Memory.vhd|
 !i113 1
@@ -35,7 +35,7 @@ Z6 tExplicit 1 CvgOpt 0
 Ereceptionist
 w1703426974
 DPx4 work 6 memory 0 22 LoHCgiWD2UHW`m0M2dmPc0
-DPx4 work 15 state_condition 0 22 lE>RdIgDn=E<9keV9=7ET3
+Z7 DPx4 work 15 state_condition 0 22 lE>RdIgDn=E<9keV9=7ET3
 R0
 R1
 R2
@@ -57,25 +57,50 @@ R4
 !i113 1
 R5
 R6
+Ereceptionist_tb
+w1703426241
+DPx4 work 6 memory 0 22 @7YXhAUIOzZ4k0]Q00^mo3
+R7
+R0
+R1
+R2
+!i122 12
+R3
+8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist_tb.vhd
+FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist_tb.vhd
+l0
+L8 1
+VM4C][W<k9]z]60X7KdTbF0
+!s100 =7lfOCSjg_<789aM0[fz22
+R4
+32
+!s110 1703427299
+!i10b 1
+!s108 1703427299.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist_tb.vhd|
+!s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist_tb.vhd|
+!i113 1
+R5
+R6
 Esevensegment
-Z7 w1703327563
+Z8 w1703327563
 R1
 R2
 !i122 7
 R3
-Z8 8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd
-Z9 FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd
+Z9 8C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd
+Z10 FC:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd
 l0
 L4 1
 VBQzL?4n8a4iR58<7m2ELC2
 !s100 ZAcX0LHoH<goQIl7Da2]V1
 R4
 32
-Z10 !s110 1703327607
+Z11 !s110 1703327607
 !i10b 1
-Z11 !s108 1703327607.000000
-Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd|
-Z13 !s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd|
+Z12 !s108 1703327607.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd|
+Z14 !s107 C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd|
 !i113 1
 R5
 R6
@@ -90,11 +115,11 @@ Vd3l2:]B36MBH6H?[j4gTU1
 !s100 60>QNVRP>aK@BRS979AQf2
 R4
 32
-R10
-!i10b 1
 R11
+!i10b 1
 R12
 R13
+R14
 !i113 1
 R5
 R6

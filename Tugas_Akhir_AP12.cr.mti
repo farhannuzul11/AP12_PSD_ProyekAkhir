@@ -1,4 +1,16 @@
-{C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd}
+{C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Controller.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+** Error: (vcom-13) Recompile work.memory because work.memory has changed.
+** Error (suppressible): C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Controller.vhd(6): (vcom-1195) Cannot find expanded name "work.Memory".
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Controller.vhd(6): Unknown expanded name.
+** Note: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Controller.vhd(8): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 11.0} {}} {C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/SevenSegment.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -12,13 +24,88 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Loading package MATH_REAL
 -- Loading package State_Condition
 -- Loading package Memory
 -- Compiling entity Receptionist
 -- Compiling architecture rtl of Receptionist
-** Error (suppressible): C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(32): (vcom-1339) Case statement choices cover only 2 out of 9 cases.
-** Error (suppressible): C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(37): (vcom-1339) Case statement choices cover only 1 out of 9 cases.
-** Note: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(49): VHDL Compiler exiting
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(108): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(108): Prefix of selected name cannot be type conversion (room) expression.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(108): Illegal target for assignment.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(108): (vcom-1583) Illegal type converson from 'std.STANDARD.NATURAL' to 'work.Memory.room' (numeric to non-numeric).
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(109): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(109): Prefix of selected name cannot be type conversion (room) expression.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(109): Illegal target for assignment.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(109): (vcom-1583) Illegal type converson from 'std.STANDARD.NATURAL' to 'work.Memory.room' (numeric to non-numeric).
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(110): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(110): Prefix of selected name cannot be type conversion (room) expression.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(110): Illegal target for assignment.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(111): (vcom-1136) Unknown identifier "hash".
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(112): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(112): Prefix of selected name cannot be type conversion (room) expression.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(112): Illegal target for assignment.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(112): (vcom-1583) Illegal type converson from 'std.STANDARD.NATURAL' to 'work.Memory.room' (numeric to non-numeric).
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(122): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(122): Prefix of selected name cannot be type conversion (room) expression.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(122): Illegal target for assignment.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(122): (vcom-1583) Illegal type converson from 'std.STANDARD.NATURAL' to 'work.Memory.room' (numeric to non-numeric).
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(123): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(123): Prefix of selected name cannot be type conversion (room) expression.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(123): Illegal target for assignment.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(123): (vcom-1583) Illegal type converson from 'std.STANDARD.NATURAL' to 'work.Memory.room' (numeric to non-numeric).
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(124): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(124): Prefix of selected name cannot be type conversion (room) expression.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(124): Illegal target for assignment.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(125): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(125): Prefix of selected name cannot be type conversion (room) expression.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(125): Illegal target for assignment.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(125): (vcom-1583) Illegal type converson from 'std.STANDARD.NATURAL' to 'work.Memory.room' (numeric to non-numeric).
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(137): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(137): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(140): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(140): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(143): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(143): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(146): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(146): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(149): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(149): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(152): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(152): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(155): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(155): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(158): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(158): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(161): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(161): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(164): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(164): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(167): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(167): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(170): (vcom-1581) No feasible entries for infix operator '='.
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(170): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+** Error (suppressible): C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(59): (vcom-1339) Case statement choices cover only 2 out of 9 cases.
+** Error (suppressible): C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(62): (vcom-1339) Case statement choices cover only 5 out of 7 cases.
+** Error (suppressible): C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(132): (vcom-1339) Case statement choices cover only 2 out of 7 cases.
+** Note: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist.vhd(181): VHDL Compiler exiting
+
+} {11.0 66.0} {}} {C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package State_Condition
+-- Loading package Memory
+-- Compiling entity Receptionist_tb
+-- Compiling architecture tb_arch of Receptionist_tb
+** Error: C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/Receptionist_tb.vhd(39): near "process": (vcom-1576) expecting BEGIN.
+
+} {11.0 12.0} {}} {C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/State_Condition.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/asus/OneDrive/Dokumen/Semester 3/PSD/Proyek Akhir/Github/AP12_PSD_ProyekAkhir/State_Condition.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package State_Condition
 
 } {} {}}
